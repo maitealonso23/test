@@ -1,0 +1,207 @@
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+li a {
+    color: #FFF;
+    font-family: 'Space Mono', monospace;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 80px; 
+    font-weight: 700;
+    text-align: center;
+}
+
+li {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 80px; 
+  font-weight: 700;
+  margin: 0px 20px;
+}
+
+
+#banner .bannerimage {
+    background-image: url("https://ssl.quiksilver.com/static/QS/default/category-assets/experiences/recurring/ups_v2/1ups/1u_fullscreen_centered/img/backgrounds/europe/231/QS_231_HP_1UP_Desktop%E2%80%93tees.jpg");
+    position: relative;
+    margin-top: 80px;
+    width: 100%;
+    height: 400px;
+  }
+
+
+#banner .bannertext h1 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(102, 0, 128, 0.829);
+  font-size: 50px;
+  border: 3px solid rgb(218, 171, 229);
+  font-family: 'Yatra One', cursive;
+}
+
+#TopVentas .text h1 {
+    font-size: 60px;
+    color: black;
+    font-family: 'Yatra One', cursive;
+    text-align: center;
+}
+
+#TopVentas .images {
+  display: inline-flex;
+  max-width: 100%;
+}
+
+#TopVentas .images img {
+  display: inline-block;
+  width: 30%;
+  height: auto;
+  margin-right: 10px;
+
+}
+
+.carousel {
+  overflow: hidden;
+}
+
+.img-container {
+  display: flex;
+  animation: scroll 10s infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  30% {
+    transform: translateX(-30%);
+  }
+}
+
+img {
+  width: 300px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.promotion {
+  background-color: #ffdf85;
+  max-width: auto;
+  margin: 150x, 150px;
+  height: 300px;
+}
+
+.promotion h2, p {
+  text-align: center;
+  font-family: 'Yatra One', cursive;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+input {
+  background-color: #c79300;
+  color: white;
+  border: 0px;
+  height: 20%;
+}
+
+textarea, input {
+  width: 40%;
+  height: 40px; 
+  text-align: center;
+  margin-left: 30%;
+  margin-bottom: 10px;
+}
+
+form {
+  background-color: #ffdf85;
+}
+
+.catalog {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  margin-left: 7%;
+  margin-top: 5%;
+}
+
+.catalog p {
+  display: block;
+  text-align: start;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+.tshirt1 {
+  display: block;
+  overflow: hidden;
+}
+
+.tshirt1 .textproduct {
+  margin-right: 900px;
+  float: right;
+  margin-top: 150px;
+}
+
+.tshirt1 img {
+  width: 30%;
+  height: auto;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 150px;
+  margin-left: 80px;
+}
+
+.tshirt1 button {
+  margin-left: 700px;
+  background-color: #c79300;
+  color: #ffdf85;
+  border:none;
+  height: 20%;
+  width: 20%;
+  height: 40px;
+  text-align: center;
+  margin-top: 0px;
+  float: top;
+}
+
+
